@@ -1,0 +1,29 @@
+body {
+   #nav {
+      a {
+         display: inline-flex;
+         padding: 20px;
+      }
+   }
+
+   #pays {
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      #ListePays {
+         h1 {
+            width: auto;
+         }
+      }
+
+      .infopays {
+         height: 30px;
+         width: auto;
+
+         a {
+            padding: 10px;
+         }
+      }
+   }
+
+}
